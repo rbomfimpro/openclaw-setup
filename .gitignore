@@ -416,3 +416,16 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Created by https://www.toptal.com/developers/gitignore/api/certificates
+# Edit at https://www.toptal.com/developers/gitignore?templates=certificates
+
+### certificates ###
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+
+# End of https://www.toptal.com/developers/gitignore/api/certificates

@@ -1,0 +1,4 @@
+openclaw.local {
+  reverse_proxy openclaw-gateway:18789
+  tls /certs/openclaw-tls.crt /certs/openclaw-tls.key
+}

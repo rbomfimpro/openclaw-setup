@@ -1,0 +1,35 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "deepseek/deepseek-chat"
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "trustedProxies": [
+      "172.16.0.0/12"
+    ],
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789",
+        "https://openclaw.local"
+      ],
+      "allowInsecureAuth": false,
+      "dangerouslyDisableDeviceAuth": false
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "111111111111"
+      ],
+      "groupPolicy": "allowlist",
+      "streaming": "partial"
+    }
+  }
+}
